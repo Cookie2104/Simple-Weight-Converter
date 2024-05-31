@@ -1,6 +1,7 @@
 Simple Weight Converter
 
-Available units conversion are:
+Available units for conversion are:
+
 1.Kilograms
 2.Grams
 3.Pounds
