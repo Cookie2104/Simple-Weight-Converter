@@ -2,7 +2,7 @@ weight = int(input("Enter your weight: "))                    # Enter weight
 unit = input("Select from kg, g, lbs or t: ")                 # Select from the given units such as kg, g, lbs or t
 new_unit = input("Convert to kg, g, lbs or t: ")              # Select a unit to convert the weight to
 
-if unit.lower() == "kg" and new_unit.lower() == "kg":         # Converts uppercase values to lowercase if user entered KG or LBS instead
+if unit.lower() == "kg" and new_unit.lower() == "kg":         # .lower converts uppercase values to lowercase if user entered KG or LBS instead
     print(f'You are {weight} kilograms')
 elif unit.lower() == "lbs" and new_unit.lower() == "kg":
     weight_kg = weight / 2.205                                # Converts the weight to kg if the user chose lbs
